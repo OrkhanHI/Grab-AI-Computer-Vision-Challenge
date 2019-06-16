@@ -1,23 +1,19 @@
-# Test
+# Grab AI Computer Vision Challenge on publicly available "Cars" dataset
 
-# Fast MPN-COV (i.e., iSQRT-COV)
-
-Created by [Jiangtao Xie](http://jiangtaoxie.github.io) and [Peihua Li](http://www.peihuali.org)
+Created by [Hasanli Orkhan](https://github.com/OrkhanHI)
 <div>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="http://peihuali.org/pictures/fast_MPN-COV.JPG" width="80%"/>
 </div>
 
 ## Introduction
 
-This repository contains the source code under **PyTorch** framework and models trained on ImageNet 2012 dataset for the following paper:
+This repository contains the code in Jypyter Notebook with **PyTorch** framework pretrained on ImageNet dataset and includes:
 
-         @InProceedings{Li_2018_CVPR,
-               author = {Li, Peihua and Xie, Jiangtao and Wang, Qilong and Gao, Zilin},
-               title = {Towards Faster Training of Global Covariance Pooling Networks by Iterative Matrix Square Root Normalization},
-               booktitle = { IEEE Int. Conf. on Computer Vision and Pattern Recognition (CVPR)},
-               month = {June},
-               year = {2018}
-         }
+- *Preprocessing.ipynb*
+- *Train.ipynb*
+- *Test.ipynb*
+
+
 
 This paper concerns an iterative matrix square root normalization network (called fast MPN-COV), which is very efficient, fit for large-scale datasets, as opposed to its predecessor (i.e., [MPN-COV](https://github.com/jiangtaoxie/MPN-COV) published in ICCV17) that performs matrix power normalization by Eigen-decompositon. The code on bilinear CNN (B-CNN), compact bilinear pooling and global average pooling etc. is also released for both training from scratch and finetuning. If you use the code, please cite this [fast MPN-COV work](http://peihuali.org/iSQRT-COV/iSQRT-COV_bib.htm)  and its predecessor (i.e., [MPN-COV](http://peihuali.org/MPN-COV/MPN-COV_bib.htm)).
 
