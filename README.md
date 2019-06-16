@@ -115,9 +115,9 @@ Training of the model is done using modified data sets which include original da
 ```
 .
 ├── train
-│   ├── class1
-│   │   ├── class1_001.jpg
-│   │   ├── class1_002.jpg
+│   ├── 0001 AM General Hummer SUV 2000
+│   │   ├── 1bl_00163.jpg
+│   │   ├── 1sh_00163.jpg
 |   |   └── ...
 │   ├── class2
 │   ├── class3
@@ -135,7 +135,7 @@ Training of the model is done using modified data sets which include original da
     ├── ...
     └── classN
 ```
-
+*Images with 'bl' prefix show blurred, 'sh' prefix - sharpened, original images do not have any prefixes.
 ## Contact
 
 **If you have any questions or suggestions, please contact me**
