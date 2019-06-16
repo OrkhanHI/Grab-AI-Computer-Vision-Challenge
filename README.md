@@ -1,4 +1,4 @@
-# Grab AI Computer Vision Challenge on publicly available "Cars" dataset
+## Grab AI Computer Vision Challenge on publicly available "Cars" dataset
 
 Created by [Hasanli Orkhan](https://github.com/OrkhanHI)
 <div>
