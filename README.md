@@ -102,7 +102,7 @@ Training of the model is done using modified data sets which include original da
 </table>
 
 - The code was totally created from scratch by me without any reference to above mentioned paper code.
-- Different dataset was created in order in to increase the accuracy.
+- Different dataset was created in order to increase the accuracy.
 - The results are obtained by simply comparing different optimizers and learning rates, which were not described in the paper in details. *Adagrad* optimizer performed the best among others with 0.001 *learning rate*.
 
 
