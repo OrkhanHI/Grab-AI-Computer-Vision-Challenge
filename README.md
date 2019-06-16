@@ -14,7 +14,7 @@ This repository contains the code in Jypyter Notebook with **PyTorch** framework
 - *Train.ipynb*
 - *Test.ipynb*
 
-#### Preprocessing
+#### Preprocessing (Feature Engineering)
 Initially all images were cropped using bounding boxes from https://ai.stanford.edu/~jkrause/cars/car_dataset.html and class names were renamed accordingly. To make the model more robust some engineering adjustments were made as *Sharpening* images and applying *Gaussian Blur*. Sharpening was chosen because original images have noticable number of blur images for almost all car models, so by applying model can learn different features as well. On the other hand unseen test images might be blur especially if it is applied in real-time (moving cars) Gaussian Blur would make the model to learn features while the images look blur.
 
 #### Training process
