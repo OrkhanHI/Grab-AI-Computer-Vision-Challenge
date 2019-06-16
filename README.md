@@ -119,23 +119,24 @@ Training of the model is done using modified data sets which include original da
 │   │   ├── 1bl_00163.jpg
 │   │   ├── 1sh_00163.jpg
 |   |   └── ...
-│   ├── class2
-│   ├── class3
+│   ├── 0002 Acura RL Sedan 2012
+│   ├── 0003 Acura TL Sedan 2012
 │   ├── ...
 │   ├── ...
-│   └── classN
+│   └── 0196 smart fortwo Convertible 2012
 └── val
-    ├── class1
+    ├── 0001 AM General Hummer SUV 2000
     │   ├── class1_001.jpg
     │   ├── class1_002.jpg
     |   └── ...
-    ├── class2
-    ├── class3
+    ├── 0002 Acura RL Sedan 2012
+    ├── 0003 Acura TL Sedan 2012
     ├── ...
     ├── ...
-    └── classN
+    └── 0196 smart fortwo Convertible 2012
 ```
-*Images with 'bl' prefix show blurred, 'sh' prefix - sharpened, original images do not have any prefixes.
+*Only train images were augmented with sharpen and blur preprocessings.<br>
+Images with 'bl' prefix show blurred, 'sh' prefix - sharpened, original images do not have any prefixes.
 ## Contact
 
 **If you have any questions or suggestions, please contact me**
