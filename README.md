@@ -107,7 +107,7 @@ Training of the model is done using modified data sets which include original da
 
 ## Installation and Usage
 
-1. Pytorch 1.0.1 was used (you can install from [PyTorch](https://github.com/pytorch/pytorch))
+1. Pytorch 1.0.1 was used
 2. type `git clone https://github.com/jiangtaoxie/fast-MPN-COV`
 3. `pip install -r requirements.txt`
 4. prepare the dataset as follows
@@ -135,29 +135,8 @@ Training of the model is done using modified data sets which include original da
     └── classN
 ```
 
-#### for training from scracth
-1. `cp trainingFromScratch/train.sh ./`
-2.  modify the dataset path in `train.sh`
-3. `sh train.sh`
-
-#### for finetuning our fast MPN-COV model
-1. `cp finetune/finetune.sh ./`
-2.  modify the dataset path in `finetune.sh`
-3. `sh finetune.sh`
-
-#### for finetuning VGG-model by using BCNN
-1. `cp finetune/two_stage_finetune.sh ./`
-2.  modify the dataset path in `two_stage_finetune.sh`
-3. `sh two_stage_finetune.sh`
-
-
-## Other Implementations
-
-1. [MatConvNet Implementation](https://github.com/jiangtaoxie/matconvnet.fast-mpn-cov)
-2. [TensorFlow Implemention](./TensorFlow)(coming soon)
-
 ## Contact
 
 **If you have any questions or suggestions, please contact me**
 
-`jiangtaoxie@mail.dlut.edu.cn`
+`orkhanh.2017@mitb.smu.edu.sg`
