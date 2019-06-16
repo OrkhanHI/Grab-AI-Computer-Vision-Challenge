@@ -2,7 +2,7 @@
 
 Created by [Hasanli Orkhan](https://github.com/OrkhanHI)
 <div>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="http://peihuali.org/pictures/fast_MPN-COV.JPG" width="80%"/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="images/DenseNet.png" width="80%"/>
 </div>
 
 ## Introduction
