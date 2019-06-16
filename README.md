@@ -5,7 +5,7 @@ DenseNet architecture
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="images/DenseNet.png" width="80%"/>
 </div>
 
-*DenseNet161 architecture was used as a backbone for this project*
+*DenseNet161 architecture was used as a backbone for this project.*
 ## Introduction
 
 This repository contains the code in Jypyter Notebook with **PyTorch** framework pretrained on ImageNet dataset and includes:
