@@ -126,8 +126,8 @@ Training of the model is done using modified data sets which include original da
 │   └── 0196 smart fortwo Convertible 2012
 └── val
     ├── 0001 AM General Hummer SUV 2000
-    │   ├── class1_001.jpg
-    │   ├── class1_002.jpg
+    │   ├── 00946.jpg
+    │   ├── 01918.jpg
     |   └── ...
     ├── 0002 Acura RL Sedan 2012
     ├── 0003 Acura TL Sedan 2012
