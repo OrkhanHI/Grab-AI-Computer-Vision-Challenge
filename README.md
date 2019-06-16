@@ -124,7 +124,7 @@ Training of the model is done using modified data sets which include original da
 │   ├── ...
 │   ├── ...
 │   └── 0196 smart fortwo Convertible 2012
-└── val
+└── valid
     ├── 0001 AM General Hummer SUV 2000
     │   ├── 00946.jpg
     │   ├── 01918.jpg
