@@ -101,8 +101,8 @@ Training of the model is done using modified data sets which include original da
      </tr>
 </table>
 
-- Our method uses neither bounding boxes nor part annotations
-- The reproduced results are obtained by simply finetuning our pre-trained fast MPN-COV-ResNet model with a small learning rate, which do not perform SVM as our paper described.
+- The code was totally created from scratch by me without any reference to above mentioned paper code.
+- The results are obtained by simply comparing different optimizers and learning rates, which were not described in the paper in details. Adagrad optimizer performed the best among others with learning rate = 0.001.
 
 
 ## Installation and Usage
