@@ -107,7 +107,7 @@ Training of the model is done using modified data sets which include original da
 
 ## Installation and Usage
 
-1. Install [PyTorch](https://github.com/pytorch/pytorch) (0.4.0 or above)
+1. Pytorch 1.0.1 was used (you can install from [PyTorch](https://github.com/pytorch/pytorch))
 2. type `git clone https://github.com/jiangtaoxie/fast-MPN-COV`
 3. `pip install -r requirements.txt`
 4. prepare the dataset as follows
