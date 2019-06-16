@@ -1,10 +1,11 @@
 ## Grab AI Computer Vision Challenge on publicly available "Cars" dataset
 
-Created by [Hasanli Orkhan](https://github.com/OrkhanHI)
+DenseNet architecture
 <div>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="images/DenseNet.png" width="80%"/>
 </div>
 
+*DenseNet161 architecture was used as a backbone for this project*
 ## Introduction
 
 This repository contains the code in Jypyter Notebook with **PyTorch** framework pretrained on ImageNet dataset and includes:
@@ -13,9 +14,14 @@ This repository contains the code in Jypyter Notebook with **PyTorch** framework
 - *Train.ipynb*
 - *Test.ipynb*
 
+#### Preprocessing
+To make the model more robust some engineering adjustments were made as *Sharpening* images and applying *Gaussian Blur*. Sharpening was chosen because original images have noticable number of blur images for almost all car models, so by applying model can learn different features as well. On the other hand unseen test images might be blur especially if it is applied in real-time (moving cars) Gaussian Blur would make the model to learn features while the images look blur.
+
+#### Training process
+Training of the model is done using modified data sets which include original data, sharpened and blur images together (overall 21174 images - 19545 for train and 1629 for validation). DenseNet161 model was used as it performed the best among other architectures (https://arxiv.org/pdf/1806.02987.pdf)
 
 
-This paper concerns an iterative matrix square root normalization network (called fast MPN-COV), which is very efficient, fit for large-scale datasets, as opposed to its predecessor (i.e., [MPN-COV](https://github.com/jiangtaoxie/MPN-COV) published in ICCV17) that performs matrix power normalization by Eigen-decompositon. The code on bilinear CNN (B-CNN), compact bilinear pooling and global average pooling etc. is also released for both training from scratch and finetuning. If you use the code, please cite this [fast MPN-COV work](http://peihuali.org/iSQRT-COV/iSQRT-COV_bib.htm)  and its predecessor (i.e., [MPN-COV](http://peihuali.org/MPN-COV/MPN-COV_bib.htm)).
+
 
 ## Classification results
 
