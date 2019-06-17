@@ -59,7 +59,7 @@ Training of the model is done using modified data sets which include original an
 ## Installation and Usage
 
 1. Pytorch 1.0.1 was used
-2. type `git clone https://github.com/jiangtaoxie/fast-MPN-COV`
+2. type `git clone https://github.com/OrkhanHI/Grab-AI-Computer-Vision-Challenge.git`
 3. `pip install -r requirements.txt`
 4. prepare the dataset as follows
 ```
