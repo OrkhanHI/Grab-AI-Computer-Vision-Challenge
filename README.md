@@ -135,7 +135,7 @@ Training of the model is done using modified data sets which include original da
     ├── ...
     └── 0196 smart fortwo Convertible 2012
 ```
-*Only train images were augmented with sharpen and blur preprocessings.<br>
+*Only train images were augmented with sharpen and blur preprocessings*.<br>
 Images with 'bl' prefix show blurred, 'sh' prefix - sharpened, original images do not have any prefixes.
 ## Contact
 
