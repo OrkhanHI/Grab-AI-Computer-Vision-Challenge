@@ -11,9 +11,12 @@ DenseNet architecture
 This repository contains the code in Jypyter Notebook with **PyTorch** framework pretrained on ImageNet dataset and includes:
 
 - *Preprocess-Train_Valid.ipynb*
-- *Preprocess-Test.ipynb*
+- *To_SHARPEN_train_images.ipynb*
 - *Train.ipynb*
+- *Preprocess-Test.ipynb*
 - *Test.ipynb*
+
+
 
 #### Preprocessing (Feature Engineering)
 Initially all images were cropped using bounding boxes from https://ai.stanford.edu/~jkrause/cars/car_dataset.html and class names were renamed accordingly. *Preprocess-Train_Valid.ipynb* was used to upload the images from above link and put the bounding boxes and respective class names.
