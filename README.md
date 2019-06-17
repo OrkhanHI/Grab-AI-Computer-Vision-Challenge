@@ -62,7 +62,7 @@ Training of the model is done using modified data sets which include original an
 
 
 - The code was totally created from scratch without any reference to above mentioned paper code.
-- Different dataset was created in order to increase the accuracy. Sharpening the data indeed made the model more robust.
+- Different dataset was created in order to increase the accuracy. Sharpening the data which was my own approach indeed made the model more robust.
 - The results are obtained by comparing different optimizers and learning rates, which were not described in the paper in details. *Adagrad* optimizer performed the best among others with 0.001 *learning rate*.
 - Many other fine-grained models were used, however, most of the paper results are impossible to reproduce. I have also tried "Towards Faster Training of Global Covariance Pooling Networks by Iterative Matrix Square Root Normalization" (https://arxiv.org/pdf/1712.01034.pdf), but the model took longer training time with relatively lower accuracy (less than 90%).
 
