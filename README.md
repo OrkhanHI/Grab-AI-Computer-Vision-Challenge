@@ -29,7 +29,7 @@ To make the model more robust some engineering adjustments were made such as *Sh
 <b>*In order to upload test images from Stanford repository *Preprocess-Test.ipynb* file need to be run which will create Test folder of images with bounding boxes provided from Stanford repository.*</b><br>
 
 #### Training process
-Training of the model is done using modified data sets which include original and sharpened data with 80/20 partition (overall 21174 images - 19545 for train and 1629 for validation). DenseNet161 model with pretrained ImageNet weights was used as it performed the best among other architectures (https://arxiv.org/pdf/1806.02987.pdf) which achieves almost similar performance as most of the fine-grained models used so far. 
+Training of the model is done using modified data sets which include original and sharpened data with 80/20 partition (overall 14659 images - 13030 for train and 1629 for validation which does not include sharpened data). DenseNet161 model with pretrained ImageNet weights was used as it performed the best among other architectures (https://arxiv.org/pdf/1806.02987.pdf) which achieves almost similar performance as most of the fine-grained models used so far. 
 
 
 
@@ -89,8 +89,8 @@ Training of the model is done using modified data sets which include original an
     └── 0196 smart fortwo Convertible 2012
 ```
 5. For Test case preprocess data using Preprocess-Test.ipynb 
-*Only train images were augmented with sharpen and blur preprocessings*.<br>
-Images with 'bl' prefix show blurred, 'sh' prefix - sharpened, original images do not have any prefixes.
+*Only train images were augmented with sharpen preprocessing*.<br>
+Images with 'sh' prefix mean sharpened, original images do not have any prefixes.
 ## Contact
 
 **If you have any questions or suggestions, please contact me**
