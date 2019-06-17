@@ -22,11 +22,12 @@ This repository contains the code in Jypyter Notebook with **PyTorch** framework
 
 
 #### Preprocessing (Feature Engineering)
-Initially all images were cropped using bounding boxes from https://ai.stanford.edu/~jkrause/cars/car_dataset.html and class names were renamed accordingly. *Preprocess-Train_Valid.ipynb* was used to upload the images from above link and put the bounding boxes and respective class names.
+Two files from Stanford repository *cars_train.tgz* and *car_devkit.tgz* need to be uploaded from repository website. After running *Preprocess-Train_Valid.ipynb* <b>data folder</b> will be created with *train* and *valid* folders respectively with their respective bounding boxes and class names.
+<br>
+To create the test folder *cars_test.tgz* need to be uploaded from repository website and *Preprocess-Test.ipynb* need to be run which will create inside the data folder *test* images folder.
 <br>
 To make the model more robust some engineering adjustments were made such as *Sharpening* images. Sharpening was chosen as original images have noticable number of blur images for almost all car models, so by applying sharpening the model can learn features better.
 <br><br>
-<b>*In order to upload test images from Stanford repository *Preprocess-Test.ipynb* file need to be run which will create Test folder of images with bounding boxes provided from Stanford repository.*</b><br>
 
 #### Training process
 Training of the model is done using modified data sets which include original and sharpened data with 80/20 partition (overall 14659 images - 13030 for train and 1629 for validation which does not include sharpened data). DenseNet161 model with pretrained ImageNet weights was used as it performed the best among other architectures (https://arxiv.org/pdf/1806.02987.pdf) which achieves almost similar performance as most of the fine-grained models used so far. 
