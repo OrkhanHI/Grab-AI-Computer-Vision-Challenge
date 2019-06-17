@@ -22,10 +22,10 @@ Training of the model is done using modified data sets which include original da
 
 
 
-
 ## Classification results
 
 #### Classification results (single crop 224x224, %) on ImageNet 2012 validation set
+
 
 <table style="width:100%">
   <caption><b>Classification Results</b></caption>
@@ -39,9 +39,9 @@ Training of the model is done using modified data sets which include original da
     <td><b>DenseNet161</b></td>
     <td>1111</td>
     <td>2222</td>
-    <td>ImageNet</td>
+    <td style="text-align:center">ImageNet</td>
   </tr>
-
+</table>
 
 - The code was totally created from scratch by me without any reference to above mentioned paper code.
 - Different dataset was created in order to increase the accuracy.
