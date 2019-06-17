@@ -36,9 +36,9 @@ Training of the model is done using modified data sets which include original da
     <th>Pre-trained models</th>
   </tr>
   <tr>
-    <td><b>DenseNet161</b></td>
-    <td>1111</td>
-    <td>2222</td>
+    <td style="text-align:center"><b>DenseNet161</b></td>
+    <td style="text-align:center">1111</td style="text-align:center">
+    <td style="text-align:center">2222</td>
     <td style="text-align:center">ImageNet</td>
   </tr>
 </table>
