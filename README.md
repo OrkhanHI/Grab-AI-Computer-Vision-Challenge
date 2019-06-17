@@ -86,7 +86,7 @@ Training of the model is done using modified data sets which include original an
     └── 0196 smart fortwo Convertible 2012
 ```
 5. For Test case preprocess data using Preprocess-Test.ipynb <br>
-*<b>Note:</b>Only train images were augmented with sharpen preprocessing*.<br>
+*<b>Note:*</b> Only train images were augmented with sharpen preprocessing.
 Images with 'sh' prefix mean sharpened, original images do not have any prefixes.
 ## Contact
 
