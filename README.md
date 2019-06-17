@@ -85,7 +85,7 @@ Training of the model is done using modified data sets which include original an
     ├── ...
     └── 0196 smart fortwo Convertible 2012
 ```
-5. Download best_model_weights from https://drive.google.com/file/d/1vkwNVqTS3ikBNzq4Atz3S7ylBpiTZgX6/view?usp=sharing and copy to outputs folder
+5. Download best_model_weights from https://drive.google.com/file/d/1vkwNVqTS3ikBNzq4Atz3S7ylBpiTZgX6/view?usp=sharing and copy to *outputs* folder above
 6. For Test case preprocess data using Preprocess-Test.ipynb <br>
 *<b>Note:*</b> Only train images were augmented with sharpen preprocessing.
 Images with 'sh' prefix mean sharpened, original images do not have any prefixes.
