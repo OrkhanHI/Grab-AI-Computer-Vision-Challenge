@@ -62,7 +62,7 @@ Training of the model is done using modified data sets which include original an
 
 
 - The code was totally created from scratch without any reference to above mentioned paper code.
-- Different dataset was created in order to increase the accuracy.
+- Different dataset was created in order to increase the accuracy. Sharpening the data indeed made the model more robust.
 - The results are obtained by comparing different optimizers and learning rates, which were not described in the paper in details. *Adagrad* optimizer performed the best among others with 0.001 *learning rate*.
 
 
