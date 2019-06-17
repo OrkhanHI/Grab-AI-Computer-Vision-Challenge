@@ -99,6 +99,9 @@ Training of the model is done using modified data sets which include original an
 6. For Test case preprocess data using Preprocess-Test.ipynb <br>
 *<b>Note:*</b> Only train images were augmented with sharpen preprocessing.
 Images with 'sh' prefix mean sharpened, original images do not have any prefixes.
+## References
+Krassimir Valev, Arne Schumann, Lars Sommer, and Jurgen Beyerer,"A Systematic Evaluation of Recent Deep Learning Architectures for Fine-Grained Vehicle Classification", arXiv:1806.02987v1 [cs.CV] 8 Jun 2018
+
 ## Contact
 
 **If you have any questions or suggestions, please contact me**
