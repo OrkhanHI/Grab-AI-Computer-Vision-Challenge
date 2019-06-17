@@ -52,11 +52,11 @@ Training of the model is done using modified data sets which include original an
          </tr>
          <tr>
              <td style="text-align:center">DenseNet161</td>
-             <td style="text-align:center;">22.14</td>
-             <td style="text-align:center;"><b>21.71</b></td>
-             <td style="text-align:center;">6.22</td>
-             <td style="text-align:center;"><b>6.13</b></td>
-             <td style="text-align:center;"><b>ImageNet</b></td>
+             <td style="text-align:center;">90.67</td>
+             <td style="text-align:center;"><b>90.24</b></td>
+             <td style="text-align:center;">98.47</td>
+             <td style="text-align:center;"><b>98.43</b></td>
+             <td style="text-align:center;">ImageNet</td>
          </td>
 </table>
 
