@@ -41,7 +41,7 @@ Training of the model is done using modified data sets which include original an
     <th>Network</th>
     <th>Top-1 Accuracy</th>
     <th>Top-5 Accuracy</th>
-    <th>Pre-trained models</th>
+    <th>Pre-trained model</th>
   </tr>
   <tr>
     <td style="text-align:center"><b>DenseNet161</b></td>
