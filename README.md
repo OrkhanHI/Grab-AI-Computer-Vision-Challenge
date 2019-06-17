@@ -45,8 +45,8 @@ Training of the model is done using modified data sets which include original an
   </tr>
   <tr>
     <td style="text-align:center"><b>DenseNet161</b></td>
-    <td style="text-align:center">1111</td style="text-align:center">
-    <td style="text-align:center">2222</td>
+    <td style="text-align:center">90.67%</td style="text-align:center">
+    <td style="text-align:center">98.47%</td>
     <td style="text-align:center">ImageNet</td>
   </tr>
 </table>
