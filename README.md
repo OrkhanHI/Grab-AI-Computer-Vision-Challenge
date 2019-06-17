@@ -35,11 +35,8 @@ Training of the model is done using modified data sets which include original an
 
 ## Classification results
 
-#### Classification results (single crop 224x224, %) on ImageNet 2012 validation set
-
 
 <table style="width:100%">
-  <caption><b>Classification Results</b></caption>
   <tr>
     <th>Network</th>
     <th>Top-1 Accuracy</th>
