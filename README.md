@@ -10,9 +10,12 @@ DenseNet architecture
 
 This repository contains the code in Jypyter Notebook with **PyTorch** framework pretrained on ImageNet dataset and includes:
 
+For Training:
 - *Preprocess-Train_Valid.ipynb*
 - *To_SHARPEN_train_images.ipynb*
-- *Train.ipynb*
+- *Train.ipynb*<br>
+
+For Testing:
 - *Preprocess-Test.ipynb*
 - *Test.ipynb*
 
