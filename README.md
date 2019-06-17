@@ -37,21 +37,29 @@ Training of the model is done using modified data sets which include original an
 
 ## Classification results
 
-
-<table style="width:100%">
-  <tr>
-    <th>Network</th>
-    <th>Top-1 Accuracy</th>
-    <th>Top-5 Accuracy</th>
-    <th>Pre-trained model</th>
-  </tr>
-  <tr>
-    <td style="text-align:center"><b>DenseNet161</b></td>
-    <td style="text-align:center">90.67%</td style="text-align:center">
-    <td style="text-align:center">98.47%</td>
-    <td style="text-align:center">ImageNet</td>
-  </tr>
+ <table style="width:100%">
+         <tr>
+             <th rowspan="2" style="text-align:center;">Network</th>
+             <th colspan="2" style="text-align:center;">Top-1 Accuracy</th>
+             <th colspan="2" style="text-align:center;">Top-5 Accuracy</th>
+             <th rowspan="2" style="text-align:center;">Pre-trained model</th>
+         </tr>
+         <tr>
+             <td style="text-align:center;">Val</td>
+             <td style="text-align:center;">Test</td>
+             <td style="text-align:center;">Val</td>
+             <td style="text-align:center;">Test</td>
+         </tr>
+         <tr>
+             <td style="text-align:center">DenseNet161</td>
+             <td style="text-align:center;">22.14</td>
+             <td style="text-align:center;"><b>21.71</b></td>
+             <td style="text-align:center;">6.22</td>
+             <td style="text-align:center;"><b>6.13</b></td>
+             <td style="text-align:center;"><b>ImageNet</b></td>
+         </td>
 </table>
+
 
 - The code was totally created from scratch by me without any reference to above mentioned paper code.
 - Different dataset was created in order to increase the accuracy.
