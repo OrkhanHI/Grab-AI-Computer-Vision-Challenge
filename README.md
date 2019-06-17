@@ -18,7 +18,7 @@ This repository contains the code in Jypyter Notebook with **PyTorch** framework
 Initially all images were cropped using bounding boxes from https://ai.stanford.edu/~jkrause/cars/car_dataset.html and class names were renamed accordingly. *Preprocess-Train_Valid.ipynb* was used to upload the images from above link and put the bounding boxes and respective class names.
 <br>
 To make the model more robust some engineering adjustments were made such as *Sharpening* images. Sharpening was chosen as original images have noticable number of blur images for almost all car models, so by applying sharpening the model can learn different features as well.
-<br><br><br>
+<br><br>
 <b>In order to upload test unseen images *Preprocess-Test.ipynb file need to be run* which will create Test folder with images and bounding boxes provided from Stanford web-page.</b><br>
 
 #### Training process
@@ -81,6 +81,7 @@ Training of the model is done using modified data sets which include original da
     ├── ...
     └── 0196 smart fortwo Convertible 2012
 ```
+5. For Test case preprocess data using Preprocess-Test.ipynb 
 *Only train images were augmented with sharpen and blur preprocessings*.<br>
 Images with 'bl' prefix show blurred, 'sh' prefix - sharpened, original images do not have any prefixes.
 ## Contact
