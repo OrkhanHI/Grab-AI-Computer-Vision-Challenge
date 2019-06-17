@@ -30,7 +30,7 @@ This repository contains the code in Jypyter Notebook with **PyTorch** framework
 <br><br>
 
 #### Training process
-Train.ipynb inside the code folder was used to train the model.
+*Train.ipynb* inside the code folder was used to train the model.
 Training of the model is done using modified data sets which include original and sharpened data with 80/20 partition (overall 14659 images - 13030 for train and 1629 for validation which does not include sharpened data). DenseNet161 model with pretrained ImageNet weights was used as it performed the best among other architectures (https://arxiv.org/pdf/1806.02987.pdf) which achieves almost similar performance as most of the fine-grained models used so far. 
 
 
