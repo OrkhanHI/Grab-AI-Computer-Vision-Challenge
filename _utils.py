@@ -1,3 +1,4 @@
+#Calculate the accuracy
 import torch
 import os 
 
@@ -17,8 +18,3 @@ def accuracy(output, target, topk=(1,)):
             res.append((int(correct_k),correct_k.mul_(1.0/batch_size)))
         return res
 
-def find_classes(dir):
-    classes = os.listdir(dir)
-    classes.sort()
-    class_to_idx = {classes[i]: i for i in range(len(classes))}
-    return classes, class_to_idx
