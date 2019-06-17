@@ -6,4 +6,5 @@ matplotlib
 numpy
 scipy
 pandas
+scikit-learn
 PIL
