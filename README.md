@@ -10,7 +10,8 @@ DenseNet architecture
 
 This repository contains the code in Jypyter Notebook with **PyTorch** framework pretrained on ImageNet dataset and includes:
 
-- *Preprocessing.ipynb*
+- *Preprocess-Train_Valid.ipynb*
+- *Preprocess-Test.ipynb*
 - *Train.ipynb*
 - *Test.ipynb*
 
@@ -22,7 +23,7 @@ To make the model more robust some engineering adjustments were made such as *Sh
 <b>In order to upload test unseen images *Preprocess-Test.ipynb file need to be run* which will create Test folder with images and bounding boxes provided from Stanford web-page.</b><br>
 
 #### Training process
-Training of the model is done using modified data sets which include original data, sharpened and blur images together (overall 21174 images - 19545 for train and 1629 for validation). DenseNet161 model with pretrained ImageNet weights was used as it performed the best among other architectures (https://arxiv.org/pdf/1806.02987.pdf) which achieves almost similar performance as most of the fine-grained models used so far. 
+Training of the model is done using modified data sets which include original and sharpened data with 80/20 partition (overall 21174 images - 19545 for train and 1629 for validation). DenseNet161 model with pretrained ImageNet weights was used as it performed the best among other architectures (https://arxiv.org/pdf/1806.02987.pdf) which achieves almost similar performance as most of the fine-grained models used so far. 
 
 
 
