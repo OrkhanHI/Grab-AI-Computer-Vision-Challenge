@@ -26,7 +26,7 @@ Initially all images were cropped using bounding boxes from https://ai.stanford.
 <br>
 To make the model more robust some engineering adjustments were made such as *Sharpening* images. Sharpening was chosen as original images have noticable number of blur images for almost all car models, so by applying sharpening the model can learn features better.
 <br><br>
-<b>*In order to upload test unseen images *Preprocess-Test.ipynb file need to be run* which will create Test folder with images and bounding boxes provided from Stanford web-page.*</b><br>
+<b>*In order to upload test images from Stanford repository *Preprocess-Test.ipynb* file need to be run which will create Test folder with images and bounding boxes provided from Stanford web-page.*</b><br>
 
 #### Training process
 Training of the model is done using modified data sets which include original and sharpened data with 80/20 partition (overall 21174 images - 19545 for train and 1629 for validation). DenseNet161 model with pretrained ImageNet weights was used as it performed the best among other architectures (https://arxiv.org/pdf/1806.02987.pdf) which achieves almost similar performance as most of the fine-grained models used so far. 
