@@ -1,4 +1,8 @@
 torch
 torchvision
+fastai
+cv2
 matplotlib
 numpy
+scipy
+pandas
