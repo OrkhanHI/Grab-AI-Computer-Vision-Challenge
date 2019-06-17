@@ -26,7 +26,7 @@ Two files from Stanford repository *cars_train.tgz* and *car_devkit.tgz* need to
 <br>
 To create the test folder *cars_test.tgz* need to be uploaded from repository website and *Preprocess-Test.ipynb* need to be run which will create inside the data folder *test* images folder.
 <br>
-To make the model more robust some engineering adjustments were made such as *Sharpening* images. Sharpening was chosen as original images have noticable number of blur images for almost all car models, so by applying sharpening the model can learn features better.
+To make the model more robust some engineering adjustments were made such as *Sharpening* images by running *To_SHARPEN_train_images.ipynb*. Sharpening was chosen as original images have noticable number of blur images for almost all car models, so by applying sharpening the model can learn features better.
 <br><br>
 
 #### Training process
