@@ -22,11 +22,11 @@ This repository contains the code in Jypyter Notebook with **PyTorch** framework
 
 
 #### Preprocessing (Feature Engineering)
-Two files from Stanford repository *cars_train.tgz* and *car_devkit.tgz* need to be uploaded from repository website. After running *Preprocess-Train_Valid.ipynb* <b>data folder</b> will be created with *train* and *valid* folders respectively with their respective bounding boxes and class names.
+1.Two files from Stanford repository *cars_train.tgz* and *car_devkit.tgz* need to be uploaded from repository website. After running *Preprocess-Train_Valid.ipynb* <b>data folder</b> will be created with *train* and *valid* folders respectively with their respective bounding boxes and class names.
 <br>
-2. To make the model more robust some engineering adjustments were made such as *Sharpening* images by running *To_SHARPEN_train_images.ipynb*. Sharpening was chosen as original images have noticable number of blur images for almost all car models, so by applying sharpening the model can learn features better.
+2.To make the model more robust some engineering adjustments were made such as *Sharpening* images by running *To_SHARPEN_train_images.ipynb*. Sharpening was chosen as original images have noticable number of blur images for almost all car models, so by applying sharpening the model can learn features better.
 <br>
-To create the test folder *cars_test.tgz* need to be uploaded from repository website and *Preprocess-Test.ipynb* need to be run which will create inside the data folder *test* images folder.
+3.To create the test folder *cars_test.tgz* need to be uploaded from repository website and *Preprocess-Test.ipynb* need to be run which will create inside the data folder *test* images folder.
 <br><br>
 
 #### Training process
